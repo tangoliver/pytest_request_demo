@@ -4,6 +4,9 @@ pip3 install allure-pytest
 pip3 install pytest
 pip3 install pytest_html
 pip3 install request
+
+或者
+pip3 install -r requirements.txt
 ```
 
 ### 下载安装allure
