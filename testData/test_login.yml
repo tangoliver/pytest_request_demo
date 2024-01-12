@@ -1,0 +1,33 @@
+testCases:
+  - testCase:
+      description: login success
+      name: login
+      method: post
+      uri: /v3/api/user/phone_login
+      mime_type: application/json
+      payload:
+        phone: "135288728xx"
+        password: "Aa12345678"
+        callbackType: 0
+      extract:
+        token: $.data.token
+      validate:
+         - equal_to:
+            $.code: 0
+         - equal_to:
+            $.code: 0
+  - testCase:
+      name: login
+      method: post
+      uri: /v3/api/user/phone_login
+      mime_type: application/json
+      description: login fail
+      payload:
+        phone: "1352887xx"
+        password: "123456abdc"
+        callbackType: 0
+      validate:
+        - equal_to:
+            $.code: 1204
+        - equal_to:
+            $.msg: "password error"

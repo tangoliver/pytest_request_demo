@@ -1,0 +1,10 @@
+[2024-01-12 10:09:51,484][run.py 13][INFO]:清理上一次执行的结果
+[2024-01-12 10:09:51,485][run.py 16][INFO]:开始测试
+[2024-01-12 10:09:52,052][method.py 53][INFO]:请求方法是post, 请求地址http://192.168.0.205:8099/api/hlx-auth/oauth/token?client_id=web-admin&client_secret=secret&grant_type=password&password=123&username=admin&verifyCode=4444
+[2024-01-12 10:09:52,141][test_api_all.py 36][INFO]:响应结果{
+    "code":100000,
+    "data":null,
+    "msg":"验证码无效！",
+    "success":false
+}
+[2024-01-12 10:09:52,150][run.py 18][INFO]:结束测试

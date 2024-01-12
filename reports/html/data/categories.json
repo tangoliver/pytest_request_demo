@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: Object of type Response is not JSON serializable",
+      "children" : [ {
+        "name" : "test_api[data2]",
+        "uid" : "8cb962224719ca4f",
+        "parentUid" : "f0b1b397ec75f0987dc491c5c384b531",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702456994815,
+          "stop" : 1702456995134,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'case_003', '用例模块': '百度', '用例名称': '百度', '用例地址': 'https://www.baidu.com', '请求地址': '', '请求方法': 'get', '请求类型': '', '请求参数': '', '请求头': '', '前置条件': '', '是否执行': 'y', '状态码': '', '期望结果': ''}" ]
+      } ],
+      "uid" : "f0b1b397ec75f0987dc491c5c384b531"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,16 @@
+INFO     logger:method.py:53 请求方法是post, 请求地址http://192.168.0.205:8099/api/hlx-auth/oauth/token?client_id=web-admin&client_secret=secret&grant_type=password&password=123&username=admin&verifyCode=4444
+INFO     logger:test_api_all.py:36 响应结果{
+    "code":0,
+    "data":{
+        "access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaGx4LWFkbWluIiwibWFsbC11c2VyIiwibWFsbC1hZ2VudCIsIm1hbGwtb3JkZXIiLCJtYWxsLXByb2R1Y3QiXSwibG9naW5UeXBlIjoid2ViLWFkbWluIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzY29wZSI6WyJhZG1pbiIsInVzZXIiLCJwcm9kdWN0Iiwib3JkZXIiLCJhZ2VudCJdLCJleHAiOjE3MDI3MTYxOTMsImF1dGhvcml0aWVzIjpbImFkbWluIl0sImp0aSI6IjgwNGY0OTU0LTM1YjctNDA0Zi1iZTI5LTNkYzQwNTk2NDljNCIsImNsaWVudF9pZCI6IndlYi1hZG1pbiIsInVzZXJuYW1lIjoiYWRtaW4ifQ.TohnE6xt0gAc9b-NOJYg1cq1oSgyVPAYVyBoAVdq67s",
+        "expires_in":259199,
+        "jti":"804f4954-35b7-404f-be29-3dc4059649c4",
+        "loginType":"web-admin",
+        "refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaGx4LWFkbWluIiwibWFsbC11c2VyIiwibWFsbC1hZ2VudCIsIm1hbGwtb3JkZXIiLCJtYWxsLXByb2R1Y3QiXSwibG9naW5UeXBlIjoid2ViLWFkbWluIiwidXNlcl9uYW1lIjoiYWRtaW4iLCJzY29wZSI6WyJhZG1pbiIsInVzZXIiLCJwcm9kdWN0Iiwib3JkZXIiLCJhZ2VudCJdLCJhdGkiOiI4MDRmNDk1NC0zNWI3LTQwNGYtYmUyOS0zZGM0MDU5NjQ5YzQiLCJleHAiOjE3MzM5OTI5OTMsImF1dGhvcml0aWVzIjpbImFkbWluIl0sImp0aSI6IjFlMjVkOTBkLTJhZWMtNDVkMy04ZTRjLWJmNmVjNGY0NDYwMiIsImNsaWVudF9pZCI6IndlYi1hZG1pbiIsInVzZXJuYW1lIjoiYWRtaW4ifQ.CU3VChEqWM4rmh_kI1bbOPj_hrbg0vyp8VqBUuIwRcA",
+        "scope":"admin user product order agent",
+        "token_type":"bearer",
+        "username":"admin"
+    },
+    "msg":"成功",
+    "success":true
+}

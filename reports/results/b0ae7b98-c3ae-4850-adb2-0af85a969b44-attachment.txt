@@ -1,0 +1,7 @@
+INFO     logger:method.py:53 请求方法是post, 请求地址http://192.168.0.205:8099/api/hlx-auth/oauth/token?client_id=web-admin&client_secret=secret&grant_type=password&password=123&username=admin&verifyCode=4444
+INFO     logger:test_api_all.py:36 响应结果{
+    "code":100000,
+    "data":null,
+    "msg":"验证码无效！",
+    "success":false
+}

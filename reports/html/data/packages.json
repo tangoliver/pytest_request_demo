@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testCase.test_api_all",
+    "children" : [ {
+      "name" : "test_api[data0]",
+      "uid" : "61360647b1cde949",
+      "parentUid" : "abca4a13dc9cc7775dd50e653ec61031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702456994501,
+        "stop" : 1702456994655,
+        "duration" : 154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例ID': 'case_001', '用例模块': '登录', '用例名称': '登录', '用例地址': 'http://192.168.0.205:8099', '请求地址': '/api/hlx-auth/oauth/token', '请求方法': 'post', '请求类型': 'json', '请求参数': 'client_id=web-admin&client_secret=secret&grant_type=password&password=123&username=admin&verifyCode=4444', '请求头': '{\"Accept\":\"application/json, text/plain, */*\"}', '前置条件': 'login', '是否执行': 'y', '状态码': 0.0, '期望结果': '成功'}" ]
+    }, {
+      "name" : "test_api[data1]",
+      "uid" : "9f7e061ce9313fed",
+      "parentUid" : "abca4a13dc9cc7775dd50e653ec61031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702456994670,
+        "stop" : 1702456994812,
+        "duration" : 142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例ID': 'case_002', '用例模块': '登录', '用例名称': '登录', '用例地址': 'http://192.168.0.205:8099', '请求地址': '/api/hlx-auth/oauth/token', '请求方法': 'post', '请求类型': 'json', '请求参数': 'client_id=web-admin&client_secret=secret&grant_type=password&password=123&username=admin&verifyCode=4444', '请求头': '{\"Accept\":\"application/json, text/plain, */*\"}', '前置条件': 'login', '是否执行': 'y', '状态码': 0.0, '期望结果': ''}" ]
+    }, {
+      "name" : "test_api[data2]",
+      "uid" : "8cb962224719ca4f",
+      "parentUid" : "abca4a13dc9cc7775dd50e653ec61031",
+      "status" : "broken",
+      "time" : {
+        "start" : 1702456994815,
+        "stop" : 1702456995134,
+        "duration" : 319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例ID': 'case_003', '用例模块': '百度', '用例名称': '百度', '用例地址': 'https://www.baidu.com', '请求地址': '', '请求方法': 'get', '请求类型': '', '请求参数': '', '请求头': '', '前置条件': '', '是否执行': 'y', '状态码': '', '期望结果': ''}" ]
+    }, {
+      "name" : "test_api[data3]",
+      "uid" : "45851acfdc71b9cf",
+      "parentUid" : "abca4a13dc9cc7775dd50e653ec61031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702456995226,
+        "stop" : 1702456995226,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例ID': 'case_004', '用例模块': '百度', '用例名称': '百度', '用例地址': 'https://www.baidu.com', '请求地址': '', '请求方法': 'get', '请求类型': '', '请求参数': '', '请求头': '', '前置条件': '', '是否执行': 'N', '状态码': '', '期望结果': ''}" ]
+    } ],
+    "uid" : "testCase.test_api_all"
+  } ]
+}
