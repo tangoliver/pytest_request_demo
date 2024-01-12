@@ -1,0 +1,9 @@
+# https://zhuanlan.zhihu.com/p/644872878
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-xdist==3.5.0
+pytest-ordering==0.6
+pytest-rerunfailures==13.0
+allure-pytest==2.13.2
+xlrd==1.2.0
+requests==2.31.0
