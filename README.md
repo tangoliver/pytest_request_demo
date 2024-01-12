@@ -13,6 +13,8 @@ pip3 install request
 
 https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/
 
+或者源码中也有安装文件（allure-commandline-2.13.2.zip），可自行下载
+
 选择需要的版本下载，这里我下载的是2.13.2版本
 下载好后，解压到你需要存放的路目录，并配置环境变量
 
